@@ -2,7 +2,7 @@
 
 ## Инструкция по запуску программы
 - склонировать репозиторий 
-    - git clone https://github.com/Borl1seTrunov/colloc-mlita.git .
+    - git clone https://github.com/Borl1seTrunov/colloc-mlita.git
 - установить виртуальное окружение python
     - Windows:  python -m venv .venv
     - MacOS/Linux: python3 -m venv .venv
