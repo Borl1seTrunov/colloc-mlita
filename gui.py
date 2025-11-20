@@ -65,8 +65,8 @@ class MainWindow(QMainWindow):
         self.tab_proof = QTextEdit()
         self.tab_explain = QTextEdit()
 
-        self.font_proof = QFont("Consolas", 14)
-        self.font_explain = QFont("Segoe UI", 14)
+        self.font_proof = QFont("Consolas", 15)
+        self.font_explain = QFont("Segoe UI", 15)
 
         self.tab_clauses.setFont(QFont("Consolas", 20))
         self.tab_proof.setFont(self.font_proof)
