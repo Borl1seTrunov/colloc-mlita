@@ -38,7 +38,7 @@ class Worker(QThread):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Резольвент первого порядка (с Gemini)")
+        self.setWindowTitle("Нейро-символический решатель логических задач")
         self.resize(1250, 900)
 
         central = QWidget()
@@ -48,7 +48,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(QLabel("<b>Введите логическую задачу:</b>"))
         self.input = QTextEdit()
         self.input.setPlaceholderText("Сократ — человек. Все люди смертны. Докажи, что Сократ смертен.")
-        self.input.setFont(QFont("Arial", 12))
+        self.input.setFont(QFont("Arial", 20))
         layout.addWidget(self.input)
 
         self.btn = QPushButton("Доказать теорему")
@@ -66,9 +66,9 @@ class MainWindow(QMainWindow):
         self.tab_explain = QTextEdit()
 
         self.font_proof = QFont("Consolas", 14)
-        self.font_explain = QFont("Segoe UI", 15)
+        self.font_explain = QFont("Segoe UI", 14)
 
-        self.tab_clauses.setFont(QFont("Consolas", 13))
+        self.tab_clauses.setFont(QFont("Consolas", 20))
         self.tab_proof.setFont(self.font_proof)
         self.tab_explain.setFont(self.font_explain)
 
