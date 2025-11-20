@@ -1,0 +1,6 @@
+python-dotenv
+customtkinter
+Pillow
+pydantic
+requests
+PyQt6
